@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +9,7 @@ def open_txt(filename):
     outfile = open(datafile, "r")
     data = outfile.readlines()
 
-    ##extracting lables
+    # Extracting lables
     lab = []
 
     for line in data:
@@ -24,7 +18,7 @@ def open_txt(filename):
             lab = lab.split()
             lab = lab[2:]
     
-    ##isolating descriptors
+    # Isolating descriptors
     des = np.genfromtxt(data, delimiter="\t")
     des = des[1:,2:]
     dim = des.shape[1]
@@ -54,14 +48,12 @@ if __name__ == "__main__":
     parser.add_argument("txt_file", help="filepath of the dragon exported descriptors")
     args = parser.parse_args()
     
-    ##opening file
+    # Opening file
     labels, ydim, DESC = open_txt(args.txt_file)
     
-    ##caculating intercorrlation
+    # Caculating intercorrlation
     CORR = np.zeros((ydim, ydim))
-    m = 0
-    n = 0
-
+    
     for n in range(0, ydim):
         for m in range(0, ydim):
             xvar = DESC[:,m]
@@ -80,68 +72,19 @@ if __name__ == "__main__":
                         yvar = DESC[:,n]
                         CORR[m,n] = corrcoef(xvar,yvar)
 
-    ##rounding r^2 values
+    # Rounding r^2 values
     CORR = np.around(CORR, 3)  
     print(CORR)
     
-    ##complete table
+    # Complete table
     drawtab(CORR, labels, 'Correlation_table.png')
     
-    ##removing high correlation values
-    m = 0
-    n = 0
+    # Removing high correlation values
 
     for n in range(0, ydim):
         for m in range(0, ydim):
             if abs(CORR[m,n]) >= 0.3:
                 CORR[m,n] = 0
     
-    ##ammended table
+    # Ammended table
     drawtab(CORR, labels, 'Low_correlation_table.png')
-    
-    
-    
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
