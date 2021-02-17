@@ -15,9 +15,9 @@ Dragon when exporting variables has the functionality to screen for intercorrela
 
 Descriptor intercorrelation was also assessed with the script intercor.py in the main directory. The script accepts a dab delineated text dragon output and returns a table of the Pearson r coefficients for each descriptor. It additionally returns a table with the values above 0.4 removed.
 
-'''bash
+```bash
 python intercor.py dragon_out\U_data.txt
-'''
+```
 ## Prediction Model
 
 U and V models were build using [keras](https://keras.io) with an iterted k-fold approach in jupyter notebook. The files in the repository iterte through epoch values from 0 to 490 to evaluate the optimal setting.
