@@ -58,15 +58,13 @@ if __name__ == "__main__":
         for m in range(0, ydim):
             xvar = DESC[:,m]
             yvar = DESC[:,n]
-            CORR[m,n] = corrcoef(xvar,yvar)
+            CORR[m,n] = corrcoef(xvar, yvar)
             if m == ydim:
-                xvar = DESC[:,ydim]
-                yvar = DESC[:,n]
-                CORR[m,n] = corrcoef(xvar,yvar)
-                m = 0
-                n = n + 1
+                xvar = DESC[:, ydim]
+                yvar = DESC[:, n]
+                CORR[m,n] = corrcoef(xvar, yvar)
                 if n == ydim:
-                    for m in range(0,ydim):
+                    for m in range(0, ydim):
                         n = ydim
                         xvar = DESC[:,ydim]
                         yvar = DESC[:,n]
@@ -80,7 +78,6 @@ if __name__ == "__main__":
     drawtab(CORR, labels, 'Correlation_table.png')
     
     # Removing high correlation values
-
     for n in range(0, ydim):
         for m in range(0, ydim):
             if abs(CORR[m,n]) >= 0.3:
