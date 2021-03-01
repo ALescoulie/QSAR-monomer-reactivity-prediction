@@ -71,8 +71,7 @@ if __name__ == "__main__":
                         CORR[m,n] = corrcoef(xvar,yvar)
 
     # Rounding r^2 values
-    CORR = np.around(CORR, 3)  
-    print(CORR)
+    CORR = np.around(CORR, 3)
     
     # Complete table
     drawtab(CORR, labels, 'Correlation_table.png')
