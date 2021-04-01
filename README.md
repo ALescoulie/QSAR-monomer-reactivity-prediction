@@ -13,16 +13,16 @@ Descriptors were computed in [Dragon 7](https://chm.kode-solutions.net/products_
 
 Dragon when exporting variables has the functionality to screen for intercorrelation. This was done with the outputs in the dragon_out directory.
 
-Descriptor intercorrelation was also assessed with the script intercor.py in the main directory. The script accepts a dab delineated text dragon output and returns a table of the Pearson r coefficients for each descriptor. It additionally returns a table with the values above 0.4 removed.
+Descriptor intercorrelation was also assessed with the script intercor.py in the main directory. The script accepts a tab delineated text dragon output and returns a table of the Pearson r coefficients for each descriptor. It additionally returns a table with the values above 0.4 removed.
 
 ```bash
 python intercor.py dragon_out\U_data.txt
 ```
 ## Prediction Model
 
-U and V models were build using [keras](https://keras.io) with an iterted k-fold approach in jupyter notebook. The files in the repository iterte through epoch values from 0 to 490 to evaluate the optimal setting.
+U and V models were build using [keras](https://keras.io) with an iterated k-fold approach in jupyter notebook. The files in the repository iterate through epoch values from 0 to 490 to evaluate the optimal setting.
 
-An additional dependence for the models is [scikit](https://scikit-learn.org/stable/) for the shuffle function used in imppementing the iterated k-fold.
+An additional dependence for the models is [scikit](https://scikit-learn.org/stable/) for the shuffle function used in implementing the iterated k-fold.
 ## Acknowledgments
 
 This work was supported by the Bill and Linda Frost Fund at Cal Poly San Luis Obispo.
