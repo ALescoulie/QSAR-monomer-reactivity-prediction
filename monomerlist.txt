@@ -1,0 +1,137 @@
+Acenaphthalene
+ethyl,Acetylene,phenyl
+Aconitate,trimethyl
+Acrolein,methyl
+ Acrylamide,N-methyl01
+Acrylamide,N-octadecyl
+ Acrylate,2-chloroethyl
+Acrylate,a-chloro-,methyl
+Acrylate,a-cyano-,methyl
+Acrylate,
+ 3,4-epoxyhexahydrobenzyl
+Acrylate,octadecyl
+ Acrylate,octyl
+Acrylate,a-phenyl-,methyl
+Acrylate,di-zinc
+ Acryloyl chloride
+ Ally1 chloride
+ Aniline,N,N-divinyl
+ Benzothiazole,vinylmercapto-
+ Butadiene
+Butadiene- 1-carboxylic acid
+Butadiene-1-carboxylate,
+ethyl
+ 2+imethylsilyloxy-
+Cinnamonitrile
+Citraconimide,N-methyl-
+Crotonaldehyde
+Crotonate,a-acetyl-,methyl
+a-carboethoxy-,
+ Crotonate,a-chloro-,ethyl
+ethyl
+Crotonate,ethyl
+Cmtonate,cl-methoq-,
+methyl
+Crotonate,cc-methyl-,
+methyl
+Crotonic acid
+Diallyl phthalate
+Ethylene
+Ethylene,tetrachloro-
+Ethylene,trichloro-
+Ethylene,diphenyl-
+Fumarate,dietbyl
+Fumarate,diisopropyl
+Hexatriene,
+tetrachloro-
+Imidazole,N-vinyl
+Isoprene
+Isopropenyl isocyanate
+Isopropenyl methyl ketone
+Itaconic acid
+Itaconic anhydride
+Maleate,diethyl
+Maleic anhydride
+Maleimide,N-(2-chlorophenyl)-
+Methacrylamide,N-phenyl-
+Methacrylate,benzyl
+Methacrylate,
+2-bromoethyl
+Methacrylate,butyl
+Methacrylate,isobutyl
+Methacrylate,
+2-chloroethyl
+Methacrylate,
+ferrocenylmethyl
+Methacrylate,glycidyl
+Methacrylate,
+2-hydroxyethyl
+Methacrylate,methyl
+Methacrylate,
+3,5-dimethyladamantyl
+Methacrylate,
+2,2,6,6-tetramethyl-
+4-piperidinyl-
+Methacrylate,phenyl
+Methacrylic acid
+Methacrylonitrile
+Methacryloylacetone
+Methylenebutyrolactone
+Naphthalene,l-vinyl-
+Ott-1-ene,6,6-dimethyl-
+4&dioxaspiro(2,5)-
+Oxazoline,2,2-isopropenyl-
+Oxazoline,2,2-isopropenyl-
+4,4-dimethyl-
+Pentadienoate,tmns-Cethoxy-
+2,4-,ethyl
+Phthalimide,N-vinyl-
+Propene,3,3,3-trichloro-
+Pyridazinone,
+3-(2-vinyl)-6-methyl-
+Pyridazinone,
+jr 3-(2-vinyl)-6-methyl-
+4,5-dihydro-
+Pyridine,2-methyl-%vinyl-
+Silane,3-methacryloxypropyl,
+trimethoxy-
+Styrene
+Styrene,p-acetoxy-
+Styrene,3-tri-n-butylstannyl-
+Styrene,
+p-1-(2-hydroxypropyl)-
+Styrene,cr-methoxy
+Styrene,cl-methyl
+Styrene,p-methyl
+Succinimide,N-vinyl
+Tetrazole,l-vinyl-
+Tetrazole,5-phenyl-2-
+(4’-vinyl)-phenyl-
+Toluenesulfonamide,
+N,N-methyl-vinyl-
+Triallyl citrate
+Vinylbenzoic acid,p-
+Vinyl benzyl methyl carbinol
+Vinyl bromide
+Vinyl butyl sulfide
+Vinyl isobutyl suljide
+Vinyl tert-butyl suljide
+Vinyl chloride
+Vinyl chloroacetate
+Vinyl cymantrene
+Vinyl dodecyl ether
+Vinylene carbonate
+Vinyl ethyl ether
+Vinyl ethyl oxalate
+Vinyl ethyl sulfide
+Vinyl ethyl muoxide
+Vinylferrocene
+Vinyl hendecanoate
+Vinylidene chloride
+Vinyl isocyanate
+Vinyl methyl ketone
+Vinyl phenyl ether
+Vinyltriethoxysilane
+Vinyl-tris(trimethoxysiloxy)
+silane
+Vinyltrimethylsilane
