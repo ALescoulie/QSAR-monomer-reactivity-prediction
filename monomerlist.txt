@@ -116,7 +116,7 @@ _Vinylidene chloride
 _Vinyl isocyanate
 _Vinyl methyl ketone
 _Vinyl phenyl ether
-Vinyltriethoxysilane
+_Vinyltriethoxysilane
 Vinyl-tris(trimethoxysiloxy)
-silane
-Vinyltrimethylsilane
+_silane
+_Vinyltrimethylsilane
